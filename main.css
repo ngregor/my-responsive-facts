@@ -1,0 +1,32 @@
+body{
+background: blue;
+}
+.red{display: none;}
+.green{display:none;}
+.yellow{display:none;}
+.purple{display:none;}
+.orange{display:none;}
+
+@media(max-width:950px){
+  body{background: red;}
+  .red{display: inline-block}
+}
+@media(max-width:800px){
+  body{background: green;}
+  .green{display: inline-block}
+}
+
+@media(max-width:650px){
+  body{background: yellow;}
+  .yellow{display: inline-block}
+}
+
+@media(max-width:500px){
+  body{background: purple;}
+  .purple{display: inline-block}
+}
+
+@media(max-width:350px){
+  body{background: orange;}
+  .orange{display: inline-block}
+}
